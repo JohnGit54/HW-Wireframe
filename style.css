@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
 body{    
     background:#777;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +34,7 @@ section {
 
 aside{
     float: right;
-    width: 355px;
+    width: 375px;
     height: 400px;
     margin: 8px 20px;
     padding: 10px;
@@ -65,17 +72,17 @@ p{
     clear: both;
     background:#ebebeb;
     color:#777;
-    width: 70%;
-    margin-top: 2%;
+    width: 90%;
+    margin-top: 14px;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    padding: 10%;
+    padding: 26px 10px;
 }
 
 /* for in the >::ection - article header */
 .sectarticlehead{
-    height: 30%;
+    height: 24%;
     width: 90%;
     background: #ebebeb;
     margin-left: auto;
@@ -84,8 +91,9 @@ p{
 }
 
 #sectarticlehead{
-    margin:15px 37%;
+    margin:40px 37% 10px 37%;
     padding-top: 20px;
+    display: flex;
 }
 
 article{
@@ -94,7 +102,7 @@ article{
     margin-top: 2%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1%;
+    padding-top: 26px;
     background: #777;
     color: #fff;
 }
