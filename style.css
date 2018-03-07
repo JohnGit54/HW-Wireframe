@@ -1,0 +1,100 @@
+body{    
+    background:#777;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777;
+    font-size: 18px;
+    text-align: center;
+    width: 960px;
+ }
+
+
+header,
+nav,
+footer {    
+    padding: 20px;
+    background:#ebebeb;
+    margin: 8px 20px ;
+}
+
+section {   
+    width: 495px;
+    height: 400px;  
+    float: left;
+    padding: 10px;
+    background:#ebebeb;
+    margin: 8px 0 8px 20px;
+}
+
+aside{
+    float: right;
+    width: 355px;
+    height: 400px;
+    margin: 8px 20px;
+    padding: 10px;
+    background:#ebebeb;
+}
+
+
+
+footer{
+    clear: both;
+    margin-top: 40px;
+     
+    
+}
+h1,
+h2,
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+}
+
+.whitetext{
+    color: #ebebeb;
+}
+
+.flowleft{
+    float: left;
+    font-size: 18px;
+    background:#ebebeb;
+    color:#777;
+}
+
+p{
+    clear: both;
+    background:#ebebeb;
+    color:#777;
+    width: 70%;
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+}
+
+/* for in the >::ection - article header */
+.sectarticlehead{
+    height: 30%;
+    width: 90%;
+    background: #ebebeb;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#sectarticlehead{
+    margin:15px 37%;
+    padding-top: 20px;
+}
+
+article{
+    height: 70%;
+    width: 99%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    background: #777;
+    color: #fff;
+}
